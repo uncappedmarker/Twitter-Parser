@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+		<head> 
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<style type="text/css">
+			html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body{background:#f2f2f2;font-family:Verdana,Arial,sans-serif;text-shadow:0 -1px 0 #fff;padding:20px;font-size:12px}h1{font-size:14px}li{list-style:disc inside;margin:0 0 10px}pre,code{font-family:monospace;background:#eee;color:#777}h1,p,ul{margin:0 0 10px}
+			</style>
+			<title>Twitter Parser</title>
+	</head>
+	<body>
+		<h1>Twitter Parser</h1>
+		<p>
+			<b>Installation:</b>
+			<br />
+			Call <b><code>jQuery</code></b>, and then call <b><code>twitterParser.js</code></b>.
+		</p>
+		<p>
+			Example usage: <code>getTwitter('uncappedmarker',10)</code>.
+		</p>
+		<p>
+			Use <code>getTwitter(user,tweets)</code> to call the function, either in a button, or on a page load, or whatever. Arguments <code>user</code> &amp; <code>user</code> indicate the username and number of tweets to get.
+			This only parses the messages. Feel free to extend it and add date logic and things.
+		</p>
+		
+		<input type="button" value="(Click here!) Example usage &raquo;" class="button" onclick="javascript:getTwitter('uncappedmarker',10);" />
+		
+		<hr />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script type="text/javascript" src="twitterParser.js"></script>
+		
+
+		
+	</body>
+</html>
